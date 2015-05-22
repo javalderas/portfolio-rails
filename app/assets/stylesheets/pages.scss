@@ -1,0 +1,136 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html,body{
+	margin:0;
+	padding:0
+}
+
+.header {
+	height: 100px;
+
+
+}
+
+.main{
+	width:100%;
+}
+
+
+.menu ul{
+	list-style:none;
+	padding-left:0;
+}
+.menu li{
+	display:inline;
+	line-height:100px;
+	font-size:18px;
+	font-weight:500;
+	height:100px;
+	margin:0 20px 0 0;
+
+}
+.menu li a{color:#000}
+
+.menu h1 {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 100px;
+	height: 100px;
+	margin:0 20px 0 0;
+	color: #000;
+}
+
+.container {
+	margin: 0 auto;
+	vertical-align: center;
+}
+
+.jumbotron {
+	background:url(https://dl.dropboxusercontent.com/u/22623806/valdepe%C3%B1as.jpg) no-repeat center center;
+	background-size:cover;
+	min-height:600px;
+	width:100%;
+	color: #D8D8D8;
+	height: 800px;
+	text-align: right;
+
+
+
+	}
+
+
+
+a.btn:hover {
+	background-color:#cc6cff;
+	color:#fff;
+	transition:background-color .5s}
+
+
+.btn {
+  display: inline-block;
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 100;
+  text-align: center;
+  background-color: #000;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  color: #fff;
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+}
+.footer {
+	text-align: right;
+	background-color: #E6DDDD;
+
+}
+
+
+.social_media {
+	
+	margin-top: 20px;
+	margin-bottom: 65px;
+	width: 100%;
+	vertical-align: right;
+	border-radius: 5px;
+	padding-top: 10px;
+	padding-right: 10px;
+	}
+.social_media li{
+	list-style: none;
+	display:inline-block;
+	height:24px;
+	margin:0 0 0 2px;
+	width:24px;
+	background-color: #AB9E9E;
+	padding-top: 5px;
+	border-radius: 5px;
+
+}
+.social_media li a {
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	
+
+}
+.github  {
+	background-image: url(https://dl.dropboxusercontent.com/u/22623806/icons/github.png) ;
+	background-position:center center;
+	
+	}
+.facebook {
+	background-image: url(https://dl.dropboxusercontent.com/u/22623806/icons/facebook4.png);
+	background-position:center center;
+}
+.twitter {
+	background-image: url(https://dl.dropboxusercontent.com/u/22623806/icons/twitter2.png);
+	background-position:center center;
+}
+
+
+
